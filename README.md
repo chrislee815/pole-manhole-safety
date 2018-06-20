@@ -13,7 +13,7 @@ The modules used for this are mainly create-react-app, react, redux, and react-r
 - To run test
   : npm test
 
-### Directory Structure
+### Directory Structures
 - root
 |- public
  |- index.html
