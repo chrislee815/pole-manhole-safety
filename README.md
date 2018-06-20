@@ -1,9 +1,6 @@
 Pole and Manhole Safety App
 =================
 
-This is an interview assignment provided by Encepta Corps.
-
------------------------------------------
 This is a web application for users to check pole and manhole structure on a map and edit info of selected marker.
 The modules used for this are mainly create-react-app, react, redux, and react-redux.
 
@@ -38,21 +35,3 @@ The modules used for this are mainly create-react-app, react, redux, and react-r
 6. Clicking a marker will displays its details on InfoEditor on the left panel
 7. Filling and submitting new data in the form will update the state, showing updates on InfoEditor panel
 8. Markers on the map can be filtered by Structure-Type filter(eg. Pole, Manhole) on left-top of the panel
-
-### Things this App DO support
-- Filter the points on the map by only Structure-Type
-- Can edit point attributes like status, id, Structure-Type, safety concerns, and comments
-- Unit tests for reducer and actions
-
-### Things this App DON'T support
-- Bouns feature (persistent storage)
-- Pretty page styling using CSS
-- Other filters like filter by status
-- Photos are not edittable
-- Could've been more cleaner code if I managed to use Google Map markers as React components
-- Unit tests for components
-
-### NOTE
-It's almost my first time for frontend web development and could've been a better if I had more time to study.
-I am aware that the App looks ugly but I tried to fulfill functional requirements using react and redux in first place rather than improving the look.
-Also, I understand that there are insufficient tests especially for components in the code. Testing the react UI components somewhat seems new to me so I decided to move on other things. Thanks you for this opportunity, and I really enjoyed making my own App.
