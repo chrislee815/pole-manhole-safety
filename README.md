@@ -1,7 +1,7 @@
 Pole and Manhole Safety App
 =================
 
-This is a web application for users to check pole and manhole structure on a map and edit info of selected marker.
+This is a web application for user to check pole and manhole structure on a map and edit info of selected marker.
 The modules used for this are mainly create-react-app, react, redux, and react-redux.
 
 ### Usage
