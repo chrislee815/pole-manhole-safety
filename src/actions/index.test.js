@@ -51,7 +51,7 @@ describe('Action Creators', ()=>{
     ];
     store = storeFactory({});
     store.dispatch(fetchRecords(records));
-    expect(store.getState().recordsReducer.length).toBe(2);
+    expect(store.getState().recordsReducer.length).toBe(1);
   });
 
   it('should select point', ()=>{
